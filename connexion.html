@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Connexion - Ayo School</title>
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <div class="page-connexion">
+
+        <div class="connexion-box">
+
+            <div class="logo-connexion">
+                AYO <span>SCHOOL</span>
+            </div>
+
+            <h1>Connexion</h1>
+
+            <p class="texte-connexion">
+                Connectez-vous à votre espace
+            </p>
+
+            <form>
+
+                <label for="type">Type de compte</label>
+
+                <select id="type" name="type">
+                    <option value="etudiant">Étudiant</option>
+                    <option value="enseignant">Enseignant</option>
+                    <option value="administrateur">Administrateur</option>
+                </select>
+
+
+                <label for="identifiant">Identifiant</label>
+
+                <input
+                    type="text"
+                    id="identifiant"
+                    name="identifiant"
+                    placeholder="Entrez votre identifiant"
+                    required
+                >
+
+
+                <label for="motdepasse">Mot de passe</label>
+
+                <input
+                    type="password"
+                    id="motdepasse"
+                    name="motdepasse"
+                    placeholder="Entrez votre mot de passe"
+                    required
+                >
+
+
+                <button type="submit">
+                    Se connecter
+                </button>
+
+            </form>
+
+            <a href="index.html" class="retour">
+                ← Retour à l'accueil
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
